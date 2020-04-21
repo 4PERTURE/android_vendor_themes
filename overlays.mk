@@ -12,6 +12,11 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# Cutout
+PRODUCT_PACKAGES += \
+    NoCutoutOverlay \
+    BrightnessSliderOverlay
+
 # Icon shape overlays
 PRODUCT_PACKAGES += \
     IconShapeRoundedRectOverlay \
